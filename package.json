@@ -1,0 +1,27 @@
+{
+  "name": "game-vertical-platformer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "mkdir -p dist && godot --headless --path . --export-release Web dist/index.html",
+    "verify-export": "node scripts/check-exported-pack.mjs",
+    "check": "node scripts/manus/runtime-command.cjs ./verify.mjs",
+    "test": "godot --headless --path . -s test/smoke.gd",
+    "test:responsive": "godot --headless --path . --script test/responsive_layout.gd",
+    "test:responsive:render": "godot --audio-driver Dummy --path . --script test/production_scaling.gd",
+    "test:ground-contact": "godot --headless --audio-driver Dummy --path . --script test/ground_contact.gd",
+    "test:ground-contact:render": "godot --audio-driver Dummy --path . --script test/ground_contact.gd",
+    "test:localization": "godot --headless --audio-driver Dummy --path . --script test/localization.gd && node --test test/loader_locale.test.mjs",
+    "test:template": "godot --headless --path . --script test/template_contract.gd",
+    "test:leaderboard-tutorial": "godot --headless --path . --script test/leaderboard_tutorial.gd",
+    "test:audio": "godot --headless --path . --script test/audio.gd",
+    "test:tuning": "godot --headless --path . --script test/tuning_contract.gd",
+    "dev": "node scripts/manus/runtime-command.cjs ./server.mjs",
+    "build": "node scripts/manus/runtime-command.cjs ./build.mjs",
+    "preview:build": "node scripts/manus/runtime-command.cjs ./preview-build.mjs",
+    "preview:status": "node scripts/manus/runtime-command.cjs ./preview-build.mjs --status",
+    "doctor": "node scripts/manus/runtime-command.cjs ./doctor.mjs",
+    "inspect": "node scripts/manus/runtime-command.cjs ./inspect-file.mjs",
+    "assets:report": "node scripts/manus/runtime-command.cjs ./asset-provenance.mjs"
+  }
+}

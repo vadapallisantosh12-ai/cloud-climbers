@@ -1,0 +1,20 @@
+{
+  "choice": "vertical-platformer",
+  "prompt": "Use case: stylized-concept. Asset type: opaque game loading background, exactly 1536x1024 landscape. Create ONE text-free premium key-art illustration for an endless automatic-jumping vertical platformer called Vertical Platformer. Input image is a CHARACTER IDENTITY REFERENCE only; create an original scene, not a sprite collage. Preserve the character: a cheerful lime-green elongated oval doodle creature with scribbled colored-pencil shading, bold imperfect black outline, small dark curved stalk on top, two small black oval eyes, simple smile and red sneakers with white soles. Show this hero springing upward between floating hand-drawn grassy platforms through a paper-sky world, with a few collectible yellow stars and one small playful monster on a distant ledge. Coherent illustrated notebook-paper aesthetic with subtle off-white paper fibers, hand-inked outlines, colored-pencil blue clouds, fresh lime green and coral-red accents. Composition: ascending platforms and hero action concentrated in the upper half and side margins, center lower third calm softly shaded pale blue paper sky for separate live loading text and progress. Cinematic illustration with layered depth while faithfully keeping the rough hand-drawn hero. Full-bleed opaque background. Absolutely no text, letters, numbers, logos, UI, loading bars, engine branding, watermarks, borders, contact sheets or panels.",
+  "tool": "builtin image_gen",
+  "model": "unknown (not exposed by built-in tool)",
+  "reference": {
+    "starter": "game-vertical-platformer-v56",
+    "asset": "assets/template/characters/hero/hero_00.webp",
+    "role": "character identity reference"
+  },
+  "generatedMasterSha256": "48fd6bfdca54a8edd5537efc2f0f7743172dade8279093cfe56ad3c1f31e9f5f",
+  "asset": "assets/template/ui/loading-background.png",
+  "assetSha256": "b2d55ddb8cee0d280fef6356ddc17b4037dcc18c53219305de88011b290384a7",
+  "embeddedWebpSha256": "f1b5daec631b516a73f5bb0616dfad681643486ab111f308e56768d146890fa9",
+  "processing": "Aspect-preserving downscale to 1280px width; 256-color PNG boot image and quality-82 WebP embedded before PCK; no text baked into either image.",
+  "bytes": {
+    "png": 796779,
+    "webp": 245224
+  }
+}

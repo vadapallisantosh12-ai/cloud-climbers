@@ -1,0 +1,57 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+boot_splash/show_image=false
+boot_splash/fullsize=true
+boot_splash/use_filter=true
+boot_splash/bg_color=Color(0.110, 0.153, 0.282, 1)
+config/icon="res://assets/game/share/favicon.png"
+
+
+
+config/name="Cloud Climber"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+TuningBridge="*res://scripts/manus/preview/tuning_adapter.gd"
+
+ManusFontTheme="*res://autoload/manus_font_theme.gd"
+I18n="*res://autoload/i18n.gd"
+
+SaveStore="*res://scripts/save_store.gd"
+TuningStore="*res://scripts/tuning_store.gd"
+GameSettings="*res://scripts/game_settings.gd"
+AudioDirector="*res://scripts/audio_director.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.992, 0.98, 0.91, 1)
+audio/driver/enable_input=false
+
+[gui]
+
+
+[editor]
+import/use_multiple_threads=false

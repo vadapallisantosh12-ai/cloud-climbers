@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "publicationOrigin": "https://cloudclimber-7zzjumwj.manus.game",
+  "title": "Cloud Climber",
+  "description": "Bounce a kitten up an endless sky tower — from sunny rooftops to the stars. Climb today's shared daily tower and race everyone on the online leaderboard. / 帮小猫一路弹跳，从屋顶爬到星空，挑战今日同一座塔并登上在线排行榜。",
+  "defaultCaptions": {
+    "x": "My kitten just bounced into the stars in Cloud Climber! Can you climb higher on today's tower?",
+    "facebook": "Cloud Climber: a cozy hand-drawn endless climb. Everyone gets the same tower each day — how high can you go?",
+    "reddit": "Cloud Climber — a hand-drawn endless bouncing climber with a shared daily tower and online leaderboard",
+    "discord": "Daily tower challenge in Cloud Climber — post your height!"
+  },
+  "assets": {
+    "og": {
+      "digest": "sha256:e0477fa07fdc687991975e722656bdd87ff27d4e17585e4e71737895414a6809",
+      "path": "share/e0477fa07fdc687991975e722656bdd87ff27d4e17585e4e71737895414a6809.png",
+      "mime": "image/png",
+      "width": 1200,
+      "height": 630,
+      "sizeBytes": 1553497,
+      "sourcePath": "assets/game/share/og-cover.png"
+    },
+    "favicon": {
+      "digest": "sha256:d6c476f1afa515f48f39effc3e4549383182848323ced5a5e562b57e2b1f1541",
+      "path": "share/d6c476f1afa515f48f39effc3e4549383182848323ced5a5e562b57e2b1f1541.png",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "sizeBytes": 94205,
+      "sourcePath": "assets/game/share/favicon.png"
+    }
+  }
+}

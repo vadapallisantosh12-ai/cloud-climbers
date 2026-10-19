@@ -1,0 +1,8 @@
+{
+  "id": "game-vertical-platformer",
+  "name": "Vertical Platformer Game (Godot Web)",
+  "description": "A remixable Godot vertical platformer with an endless automatic-jumping climb, a doodled sky world, character skins, obstacles, power-ups, English/Chinese UI and saved language selection.",
+  "capabilities": [
+    "static"
+  ]
+}

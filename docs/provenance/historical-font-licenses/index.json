@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sourceStarterId": "game-vertical-platformer-v62",
+  "scope": "Historical font metadata and license notices retained as evidence only. These replaced font binaries are absent from the current assets lock; this record does not describe active bundled fonts.",
+  "supersededFontProvenance": {
+    "family": "Template OFL faces + Noto Sans SC",
+    "files": [
+      "GochiHand-Regular.subset.woff2",
+      "NotoSansSC-VF.subset.woff2",
+      "Quicksand-VF.subset.woff2",
+      "ZCOOLKuaiLe-Regular.subset.woff2"
+    ],
+    "license": "OFL-1.1 (adjacent <Family>-OFL.txt)",
+    "retired": "ManusCC0 / ManusCC0 Sans CJK SC (earlier revisions only)"
+  },
+  "supersededTypographyMaintenance": {
+    "primaryFamily": "Template display + body OFL faces (assets/template/fonts)",
+    "languageFallbacks": "Noto Sans SC subset at matching weight; system fallback disabled.",
+    "bodyComposites": "assets/template/fonts/ui_{regular,medium,bold}.tres"
+  },
+  "supersededStatements": [
+    {
+      "field": "adaptations",
+      "text": "2026-09-25 typography polish: ManusCC0 retired from this revision; template-specific OFL display/body faces plus the Noto Sans SC subset (6,547-codepoint runtime CJK repertoire) ship as subset WOFF2 with adjacent OFL texts, restored from assets.lock.json (asset version 2026.09.25-typography-v1); first launch follows the browser/system language (zh* -> Simplified Chinese) unless a saved choice exists; loaders embed a Noto Sans SC subset."
+    },
+    {
+      "field": "maintenanceChanges",
+      "text": "2026-09-25 typography polish: ManusCC0 retired from this revision; template-specific OFL display/body faces plus the Noto Sans SC subset (6,547-codepoint runtime CJK repertoire) ship as subset WOFF2 with adjacent OFL texts, restored from assets.lock.json (asset version 2026.09.25-typography-v1); first launch follows the browser/system language (zh* -> Simplified Chinese) unless a saved choice exists; loaders embed a Noto Sans SC subset."
+    }
+  ],
+  "notices": [
+    {
+      "originalPath": "assets/template/fonts/Quicksand-OFL.txt",
+      "archivedPath": "docs/provenance/historical-font-licenses/Quicksand-OFL.txt",
+      "sha256": "14d28541780d90f6577bb7abcc6f005bf6969614294e75c82abb8758a696ad46",
+      "size": 4445
+    },
+    {
+      "originalPath": "assets/template/fonts/display/GochiHand-OFL.txt",
+      "archivedPath": "docs/provenance/historical-font-licenses/GochiHand-OFL.txt",
+      "sha256": "b36cb03d6ddc163452d9935ce6f325741434272d3889acf42cc23584f31a85bf",
+      "size": 4423
+    }
+  ]
+}
